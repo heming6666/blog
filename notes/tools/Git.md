@@ -10,7 +10,7 @@
 <!-- /TOC -->
 
 ## 参考资料
-将参考资料放到了最前面，建议直接查阅。
+将参考资料放到了最前面，便于直接查阅。
 
 - [Git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html) (简明易懂，页面漂亮)
 - [Learn Git Branching](https://learngitbranching.js.org/)（在沙盒里执行 Git 命令，能看到每个命令的执行情况； 关卡挑战模式，可以动手，学习起来也比较有意思）
