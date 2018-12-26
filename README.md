@@ -4,7 +4,7 @@
 
 - [Leetcode 题解](https://github.com/heming6666/CS-Learning-notes/tree/master/notes/leetcode/README.md)
 
-  对题目做了一个大致分类，并对每种题型的解题思路做了总结。
+  将题目进行了大致的分类，对不同思路与解法也做了一点总结。
 
 
 ### :hammer: 工具 
@@ -15,16 +15,16 @@
 
 - [Java 代码规范](https://github.com/heming6666/CS-Learning-notes/blob/master/notes/tools/Java%20%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83.md)
 
-  参考里巴巴Java开发手册。
+  参考里巴巴Java开发手册中的一些常用的代码风格规范。
 
 - [vscode](https://github.com/heming6666/CS-Learning-notes/blob/master/notes/tools/vscode.md)
 
-  vscode 的使用。
+  vscode 的使用（插件、快捷键等）。
 
 
 ### :memo: 参考资料
 - [CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes) ：笔记中诸多地方来源于该博客，感谢博主。
-- [用动画的形式呈现解LeetCode题目的思路](https://github.com/MisterBooo/LeetCodeAnimation) ：笔记中LeetCode题目动图来源
+- [MisterBooo/LeetCodeAnimation -用动画的形式呈现解LeetCode题目的思路](https://github.com/MisterBooo/LeetCodeAnimation) ：笔记中LeetCode题目动图来源
 
 #### License
 
