@@ -4,20 +4,30 @@
     - [Markdown TOC](#markdown-toc)
     - [Paste Image](#paste-image)
     - [Markdown Preview Github Styling](#markdown-preview-github-styling)
+    - [vscode-icons](#vscode-icons)
+    - [Markdown Emoji](#markdown-emoji)
 - [VS Code 中使用 Git 提交到 Github](#vs-code-中使用-git-提交到-github)
 
 <!-- /TOC -->
 
 ## 插件 Extentions
 ### Markdown TOC
-- 如果遇到问题，可参考该[issue](https://github.com/AlanWalk/markdown-toc/issues/65)
+- 如果遇到问题，参考该[issue](https://github.com/AlanWalk/markdown-toc/issues/65)
 
 ### Paste Image
 - 将图片复制到剪贴板后，快捷键: `Ctrl + Shift + v`
 - 可对图片路径等进行配置
 
 ### Markdown Preview Github Styling
-- markdown预览：`Ctrl + K` + `v`
+- Github 风格的 Markdown 预览效果
+- 预览快捷键：`Ctrl + K` + `v`
+
+### vscode-icons
+- 改变vscode的文件图标
+
+### Markdown Emoji
+- 支持许多 Markdown Emoji，[Emoji 列表](./emoji.md)
+
 
 ## VS Code 中使用 Git 提交到 Github
 1、下载 git 并配置
