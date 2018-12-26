@@ -24,7 +24,7 @@
 
 
 ### :memo: 参考资料
-- [CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes) ：笔记中诸多地方来源于该博客，感谢博主。
+- [CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes) ：笔记的排版样式及部分内容来源于该博客，感谢博主
 - [MisterBooo/LeetCodeAnimation -用动画的形式呈现解LeetCode题目的思路](https://github.com/MisterBooo/LeetCodeAnimation) ：笔记中LeetCode题目动图来源
 
 #### License
