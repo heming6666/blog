@@ -1,5 +1,6 @@
-# CS-Learning-notes
+# CS-Learning-notes 
 
+个人学习笔记，方便日后查阅，仅供参考。
 ### :pencil2: 算法
 
 - [Leetcode 题解](https://github.com/heming6666/CS-Learning-notes/tree/master/notes/leetcode/README.md)
