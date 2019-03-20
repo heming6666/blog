@@ -12,7 +12,7 @@
 
 ## 插件 Extentions
 ### Markdown TOC
-- 如果遇到问题，参考该[issue](https://github.com/AlanWalk/markdown-toc/issues/65)
+- 可能遇到的问题，参考 [issue](https://github.com/AlanWalk/markdown-toc/issues/65)
 
 ### Paste Image
 - 将图片复制到剪贴板后，快捷键: `Ctrl + Shift + v`
