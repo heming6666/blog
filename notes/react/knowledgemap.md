@@ -1,4 +1,4 @@
-# 知识地图
+# [知识地图](https://dvajs.com/knowledgemap/)
 
 这篇文档梳理了基于 [dva-cli](https://github.com/dvajs/dva-cli) 使用 [dva](https://github.com/dvajs/dva) 的最小知识集，让你可以用最少的时间掌握创建类似 [dva-hackernews](https://github.com/dvajs/dva-hackernews) 应用的全部知识，并且不需要掌握额外的冗余知识。
 
