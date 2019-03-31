@@ -8,7 +8,7 @@
   将题目进行了大致的分类，对不同思路与解法也做了一点总结。
 
 ## :triangular_ruler: 前端
-- [React](https://github.com/heming6666/CS-Learning-notes/blob/master/notes/react/react-markdown-github-styling.md)
+- [React](https://github.com/heming6666/CS-Learning-notes/blob/master/notes/react/knowledgemap.md)
 
 ## :hammer: 工具
 
