@@ -1,14 +1,26 @@
 # CS-Learning-notes 
 
 个人学习笔记，方便日后查阅，仅供参考。
+
+## :cloud: 微服务
+- [nacos](https://nacos.io/zh-cn/index.html)
+    - [官方文档](https://nacos.io/zh-cn/docs/what-is-nacos.html) 很详细。
+    - [使用实例](http://blog.didispace.com/spring-cloud-alibaba-1/)
+- [Sentinel](https://github.com/alibaba/Sentinel/wiki/%E4%BB%8B%E7%BB%8D)
+    - [官方新手指南](https://github.com/alibaba/Sentinel/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)
+    - [使用实例](http://blog.didispace.com/spring-cloud-alibaba-sentinel-1/)
+
+- 关于[Spring Cloud第二代](http://springcloud.cn/view/415)
+- 一个[微服务平台开发脚手架](https://gitee.com/minull/ace-security)
+
+## :snowflake:: 前端
+- [React](https://github.com/heming6666/CS-Learning-notes/blob/master/notes/react/knowledgemap.md)
+
 ## :pencil2: 算法
 
 - [Leetcode 题解](https://github.com/heming6666/CS-Learning-notes/tree/master/notes/leetcode/README.md)
 
   将题目进行了大致的分类，对不同思路与解法也做了一点总结。
-
-## :triangular_ruler: 前端
-- [React](https://github.com/heming6666/CS-Learning-notes/blob/master/notes/react/knowledgemap.md)
 
 ## :hammer: 工具
 
