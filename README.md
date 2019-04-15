@@ -3,17 +3,22 @@
 个人学习笔记，方便日后查阅，仅供参考。
 
 ## :cloud: 微服务
-- [nacos](https://nacos.io/zh-cn/index.html)
-    - [官方文档](https://nacos.io/zh-cn/docs/what-is-nacos.html) 很详细。
-    - [使用实例](http://blog.didispace.com/spring-cloud-alibaba-1/)
+- [nacos](https://nacos.io/zh-cn/docs/what-is-nacos.html)
+    - **Spring Cloud Alibaba Nacos Discovery**
+        - [入门系列教程](http://blog.didispace.com/spring-cloud-alibaba-1/)
+        - [官方使用文档](https://github.com/spring-cloud-incubator/spring-cloud-alibaba/wiki/Nacos-discovery)
+    
+    - **Spring Cloud Alibaba Nacos Config**
+        - [入门系列教程](http://blog.didispace.com/spring-cloud-alibaba-3/)
+        - [官方使用文档](https://github.com/spring-cloud-incubator/spring-cloud-alibaba/wiki/Nacos-config)
 - [Sentinel](https://github.com/alibaba/Sentinel/wiki/%E4%BB%8B%E7%BB%8D)
     - [官方新手指南](https://github.com/alibaba/Sentinel/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)
-    - [使用实例](http://blog.didispace.com/spring-cloud-alibaba-sentinel-1/)
+    - [入门教程](http://blog.didispace.com/spring-cloud-alibaba-sentinel-1/)
 
 - 关于[Spring Cloud第二代](http://springcloud.cn/view/415)
 - 一个[微服务平台开发脚手架](https://gitee.com/minull/ace-security)
 
-## :snowflake:: 前端
+## :snowflake: 前端
 - [React](https://github.com/heming6666/CS-Learning-notes/blob/master/notes/react/knowledgemap.md)
 
 ## :pencil2: 算法
