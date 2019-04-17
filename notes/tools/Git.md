@@ -16,6 +16,7 @@
 - [Learn Git Branching](https://learngitbranching.js.org/)（在沙盒里执行 Git 命令，能看到每个命令的执行情况； 关卡挑战模式，可以动手，学习起来也比较有意思）
 - [图解 Git](http://marklodato.github.io/visual-git-guide/index-zh-cn.html)（可以更透彻理解 Git 的工作原理）
 - [廖雪峰 : Git 教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+- [git-tips](https://github.com/git-tips/tips)
 
 ## Git 命令一览
 
