@@ -5,6 +5,10 @@
 ## Serverless
 - [[译]伯克利谈serverless：过去，现在和未来](https://juejin.im/post/5caf019ff265da039444987b)
 
+- [Serverless Architectures (MartinFowler)](https://martinfowler.com/articles/serverless.html)
+    - [译文1](https://amio.github.io/serverless-zhcn/)
+    - [译文2](https://blog.51cto.com/solarboy/2298314)
+
 ## :cloud: 微服务
 - [nacos](https://nacos.io/zh-cn/docs/what-is-nacos.html)
     - **Spring Cloud Alibaba Nacos Discovery**
