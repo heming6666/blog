@@ -2,6 +2,8 @@
 
 个人学习笔记，方便日后查阅，仅供参考。
 
+## Serverless
+- [[译]伯克利谈serverless：过去，现在和未来](https://juejin.im/post/5caf019ff265da039444987b)
 
 ## :cloud: 微服务
 - [nacos](https://nacos.io/zh-cn/docs/what-is-nacos.html)
