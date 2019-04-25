@@ -2,6 +2,7 @@
 
 个人学习笔记，方便日后查阅，仅供参考。
 
+
 ## :cloud: 微服务
 - [nacos](https://nacos.io/zh-cn/docs/what-is-nacos.html)
     - **Spring Cloud Alibaba Nacos Discovery**
@@ -21,6 +22,8 @@
 ## :snowflake: 前端
 - [React](https://github.com/heming6666/CS-Learning-notes/blob/master/notes/react/knowledgemap.md)
 
+## Linux内核
+- [Linux机械硬盘I/O优化技术](https://github.com/heming6666/blog/blob/master/notes/Linux%E5%86%85%E6%A0%B8/Linux%E6%9C%BA%E6%A2%B0%E7%A1%AC%E7%9B%98IO%E4%BC%98%E5%8C%96%E6%8A%80%E6%9C%AF.md)
 ## :pencil2: 算法
 
 - [Leetcode 题解](https://github.com/heming6666/CS-Learning-notes/tree/master/notes/leetcode/README.md)
