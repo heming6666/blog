@@ -12,6 +12,8 @@
 
 - [7 open source platforms to get started with serverless computing](https://opensource.com/article/18/11/open-source-serverless-platforms)
 
+- [什么是无服务器Serverless](https://blog.xinkuo.me/post/what-is-serverless.html)
+
 ### 工具
 - [OpenWhisk](https://openwhisk.apache.org/)
 
