@@ -18,6 +18,7 @@
 - [OpenWhisk](https://openwhisk.apache.org/)
 - [Kubeless : The Kubernetes Native Serverless Framework](https://kubeless.io/)
 - [Serverless Framework](https://serverless.com/)
+- [CloudEvents: A specification for describing event data in a common way](https://github.com/cloudevents/spec)
 
 ## :cloud: 微服务
 - [nacos](https://nacos.io/zh-cn/docs/what-is-nacos.html)
