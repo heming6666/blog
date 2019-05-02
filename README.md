@@ -7,8 +7,8 @@
 - [[译]伯克利谈serverless：过去，现在和未来](https://juejin.im/post/5caf019ff265da039444987b)
 
 - [Serverless Architectures (MartinFowler)](https://martinfowler.com/articles/serverless.html)
-    - [译文1](https://amio.github.io/serverless-zhcn/)
-    - [译文2](https://blog.51cto.com/solarboy/2298314)
+    - [整理的译文](https://github.com/heming6666/blog/blob/master/notes/serverless/serverless-architectures.md)
+
 
 - [7 open source platforms to get started with serverless computing](https://opensource.com/article/18/11/open-source-serverless-platforms)
 
