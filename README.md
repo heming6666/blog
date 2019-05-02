@@ -62,10 +62,6 @@
   vscode 的使用（插件、快捷键等）。
 
 
-## :memo: ref
-- [CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes) 
-- [MisterBooo/LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation) 
-
 ### License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
