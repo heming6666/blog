@@ -4,12 +4,14 @@
 
 ## Serverless
 ### 文章
-#### paper
+#### paper & book
 - [[译]伯克利谈serverless：过去，现在和未来](https://juejin.im/post/5caf019ff265da039444987b)
 
 - [Serverless Architectures (MartinFowler)](https://martinfowler.com/articles/serverless.html)
     - [整理的译文](https://github.com/heming6666/blog/blob/master/notes/serverless/serverless-architectures.md)
-#### personal blog
+
+- [[译] Knative入门——构建基于 Kubernetes 的现代化Serverless应用](http://www.servicemesher.com/getting-started-with-knative/)
+#### blog
 - [什么是无服务器Serverless](https://blog.xinkuo.me/post/what-is-serverless.html)
 - [serverless 平台 knative 简介](https://cizixs.com/2018/08/25/knative-serverless-platform/)
 
