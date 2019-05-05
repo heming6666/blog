@@ -10,6 +10,8 @@
 - [Serverless Architectures (MartinFowler)](https://martinfowler.com/articles/serverless.html)
     - [整理的译文](https://github.com/heming6666/blog/blob/master/notes/serverless/serverless-architectures.md)
 
+- [Serverless Computing: One Step Forward, Two Steps Back](https://rise.cs.berkeley.edu/blog/publication/serverless-computing-one-step-forward-two-steps-back/)
+
 - [[译] Knative入门——构建基于 Kubernetes 的现代化Serverless应用](http://www.servicemesher.com/getting-started-with-knative/)
 #### blog
 - [什么是无服务器Serverless](https://blog.xinkuo.me/post/what-is-serverless.html)
