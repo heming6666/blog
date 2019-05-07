@@ -27,6 +27,10 @@
 
 
 ## :cloud: 微服务
+### paper & book
+- [Microservices: How To Make Your Application Scale](https://arxiv.org/abs/1702.07149)
+
+### 实践
 - [nacos](https://nacos.io/zh-cn/docs/what-is-nacos.html)
     - **Spring Cloud Alibaba Nacos Discovery**
         - [入门系列教程](http://blog.didispace.com/spring-cloud-alibaba-1/)
