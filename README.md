@@ -19,7 +19,7 @@
 - [什么是无服务器Serverless](https://blog.xinkuo.me/post/what-is-serverless.html)
 - [serverless 平台 knative 简介](https://cizixs.com/2018/08/25/knative-serverless-platform/)
 
-### 实现
+### 实践
 - [**OpenWhisk**](https://openwhisk.apache.org/)
 - [**Knative** : Kubernetes-based platform to build, deploy, and manage modern serverless workloads](https://github.com/knative/)
 - [**CloudEvents**: A specification for describing event data in a common way](https://github.com/cloudevents/spec)
