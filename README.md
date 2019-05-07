@@ -67,9 +67,8 @@
 
   参考里巴巴Java开发手册中的一些常用的代码风格规范。
 
-- [vscode](https://github.com/heming6666/CS-Learning-notes/blob/master/notes/tools/vscode.md)
+- [一些好用的软件和网站](https://github.com/heming6666/blog/blob/master/notes/tools/%E4%B8%80%E4%BA%9B%E5%A5%BD%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%92%8C%E7%BD%91%E7%AB%99.md)
 
-  vscode 的使用（插件、快捷键等）。
 
 
 ### License
