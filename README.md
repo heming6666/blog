@@ -5,12 +5,14 @@
 ## Serverless
 ### 文章
 #### paper & book
-- [[译]伯克利谈serverless：过去，现在和未来](https://juejin.im/post/5caf019ff265da039444987b)
+- [Cloud Programming Simplified: A Berkeley View on Serverless Computing](https://arxiv.org/abs/1902.03383v1)
+    - [[译文]伯克利谈serverless：过去，现在和未来](https://juejin.im/post/5caf019ff265da039444987b)
 
 - [Serverless Architectures (MartinFowler)](https://martinfowler.com/articles/serverless.html)
     - [整理的译文](https://github.com/heming6666/blog/blob/master/notes/serverless/serverless-architectures.md)
 
 - [Serverless Computing: One Step Forward, Two Steps Back](https://rise.cs.berkeley.edu/blog/publication/serverless-computing-one-step-forward-two-steps-back/)
+    - [参考笔记](https://zhuanlan.zhihu.com/p/62666803)
 
 - [[译] Knative入门——构建基于 Kubernetes 的现代化Serverless应用](http://www.servicemesher.com/getting-started-with-knative/)
 #### blog
