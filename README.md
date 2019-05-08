@@ -28,7 +28,9 @@
 
 ## :cloud: 微服务
 ### paper & book
-- [Microservices: How To Make Your Application Scale](https://link.springer.com/chapter/10.1007/978-3-319-74313-4_8)
+- [Microservices: Yesterday, Today, and Tomorrow](https://link.springer.com/chapter/10.1007/978-3-319-67425-4_12)
+
+- [Microservices: The Journey So Far and Challenges Ahead](https://www.researchgate.net/publication/324959590_Microservices_The_Journey_So_Far_and_Challenges_Ahead)
 
 ### 实践
 - [nacos](https://nacos.io/zh-cn/docs/what-is-nacos.html)
