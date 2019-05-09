@@ -30,7 +30,7 @@
 ## :cloud: 微服务
 ### paper & book
 - [Microservices: Yesterday, Today, and Tomorrow](https://link.springer.com/chapter/10.1007/978-3-319-67425-4_12)
-    - [译文](https://github.com/heming6666/blog/blob/master/notes/microservice/microservices-yesterday-today-tomorrow.md)
+    
 - [Microservices: The Journey So Far and Challenges Ahead](https://www.researchgate.net/publication/324959590_Microservices_The_Journey_So_Far_and_Challenges_Ahead)
 
 ### 实践
