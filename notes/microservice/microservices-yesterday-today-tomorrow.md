@@ -1,35 +1,24 @@
-# Microservices: Yesterday, Today, and Tomorrow
-**Abstract** 
-
-Microservices is an architectural style inspired by service-oriented computing that has recently started gaining popularity. Before presenting the current state-of-the-art in the field, this chapter reviews the history of software architecture, the reasons that led to the diffusion of objects and services first, and microservices later. Finally, open problems and future challenges are introduced. This survey primarily addresses newcomers to the discipline, while offering an academic viewpoint on the topic. In addition, we investigate some practical issues and point out some potential solutions.
-
-**摘要**
-
-微服务是一种受面向服务计算启发的架构风格，最近开始流行起来。在介绍该领域的最新进展之前，本章回顾了软件架构的历史，首先介绍了导致对象和服务扩散的原因，然后介绍了微服务。最后，介绍了一些尚未解决的问题和未来的挑战。这篇文章主要针对该领域的初学者，同时给出了有关该主题的学术观点。此外，我们还对一些实际问题进行了探讨，并提出了一些可能的解决方案。
+**Abstract** Microservices is an architectural style inspired by service-oriented computing that has recently started gaining popularity. Before presenting the current state-of-the-art in the field, this chapter reviews the history of software architecture, the reasons that led to the diffusion of objects and services first, and microservices later. Finally, open problems and future challenges are introduced. This survey primarily addresses newcomers to the discipline, while offering an academic viewpoint on the topic. In addition, we investigate some practical issues and point out some potential solutions.
+**摘要  **微服务是一种受面向服务计算启发的架构风格，最近开始流行起来。在介绍该领域的最新进展之前，本章回顾了软件架构的历史，首先介绍了导致对象和服务扩散的原因，然后介绍了微服务。最后，介绍了一些尚未解决的问题和未来的挑战。这篇文章主要针对该领域的初学者，同时给出了有关该主题的学术观点。此外，我们还对一些实际问题进行了探讨，并提出了一些可能的解决方案。
 # 1 Introduction
 The mainstream languages for development of server-side applications, like Java, C/C++, and Python, provide abstractions to break down the complexity of programs into modules. However, these languages are designed for the creation of *single executable artefacts*, also called *monoliths*, and their modularisation abstractions rely on the sharing of resources of the same machine (memory, databases, files). Since the modules of a monolith depend on said shared resources, they are not independently executable.
 用于服务器端应用程序开发的主流语言（如Java，C / C++和Python）都提供了抽象的方法，以将复杂的程序模块化。然而，这些语言是为了生成单体应用而设计的，它们的模块化抽象依赖于共享同一台机器的资源（内存、数据库、文件）。由于单体应用的模块依赖于上述共享资源，因此它们不是独立的可执行模块。
 
-**Definition 1 (Monolith).** A monolith is a software application whose modules cannot be executed independently.
-
-**定义1（单体应用）。** 一个单体应用是软件应用程序，其模块不能独立执行。
+**Definition 1 (Monolith). **A monolith is a software application whose modules cannot be executed independently.
+**定义1（单体应用）。**一个单体应用是软件应用程序，其模块不能独立执行。
 
 This makes monoliths difficult to use in distributed systems without specific frameworks or ad hoc solutions such as, for example, Network Objects [8], RMI [41] or CORBA [69]. However, even these approaches still suffer from the general issues that affect monoliths; below we list the most relevant ones (we label issues I|*n*):
-
 这使得在没有特定框架或临时解决方案的分布式系统(如Network Objects [8]、 RMI [41]或 CORBA [69])中很难使用单体应用。然而，即使这些方法仍然受到影响单体应用的一般性问题的困扰; 下面我们列出最相关的问题(标记为 I | n) :
 
 **I|1**  large-size monoliths are difficult to maintain and evolve due to their complexity. Tracking down bugs requires long perusals through their code base;
-
 **I|1**  复杂的大型单体应用难以维护和演进。追踪 bug 需要通过对其代码库进行长时间的研究。
 
 **I|2**  monoliths also suffer from the “dependency hell” [57], in which adding or updating libraries results in
 inconsistent systems that do not compile/run or, worse, misbehave;
-
 **I|2**  单体应用还存在"依赖地狱"[57]的问题，添加或更新库会导致系统不一致，不能成功编译 / 运行，或者更糟的是，系统无法正常运行。
 
-**I|3** any change in one module of a monolith requires rebooting the whole application. For large-sized projects, restarting usually entails considerable downtimes, hindering development, testing, and the maintenance of the project;
-
-**I|3** 在单体应用中，对任何一个模块的更改都需要重新启动整个应用程序。对于大型项目来说，重启通常意味着相当长的停机时间，从而阻碍的项目的开发、测试和维护。
+**I|3 ** any change in one module of a monolith requires rebooting the whole application. For large-sized projects, restarting usually entails considerable downtimes, hindering development, testing, and the maintenance of the project;
+**I|3 ** 在单体应用中，对任何一个模块的更改都需要重新启动整个应用程序。对于大型项目来说，重启通常意味着相当长的停机时间，从而阻碍的项目的开发、测试和维护。
 
 **I|4**  deployment of monolithic applications is usually suboptimal due to conflicting requirements on the constituent models’ resources: some can be memory-intensive, others computational-intensive, and others require ad-hoc components (e.g., SQL-based rather than graph-based databases). When choosing a deployment environment, the developer must compromise with a one-size-fits-all configuration, which is either expensive or sub-optimal with respect to the individual modules;
 **I|4**  由于不同模块对资源的需求不同，单体应用程序的部署通常不是最优的：有的是内存密集型的，有的
@@ -161,7 +150,7 @@ The microservices architecture gained popularity relatively recently and can be 
 微服务架构是最近才流行起来的，可以认为它还处于初级阶段，因为对于微服务的实际定义仍然缺乏共识。 M. Fowler 和 J.Lewis 通过定义微服务的主要特征提供了一个起点[35]。 S. Newman [66]基于 m. Fowler 的文章，提出了关于前面提到的架构的某些方面的解决方法和最佳实践。 L. Krause 在他的著作[49]中讨论了微服务的模式和应用。 一些已发表的论文详细描述了使用微服务架构的系统的设计和实现。 例如，[50]的作者介绍了使用 微服务架构的 Nevada Research Data Center (NRDC)新软件系统的开发细节。 M. Rahman 和 j. Gao 在[39]中描述了行为驱动开发(BDD)在微服务架构中的应用，以减少开发人员的维护负担，并鼓励使用验收测试。
 ## *3.1 Teams*
 Back in 1968, Melvin Conway proposed that an organisation’s structure, or more specifically, its communication structure constrains a system’s design such that the resulting design is a copy of the organisation’s communication patterns [24]. The microservices approach is to organise cross-functional teams around services, which in turn are organised around business capabilities [35]. This approach is also known as “you build, you run it” principle, first introduced by Amazon CTO Werner Vogels [40]. According to this approach, teams are responsible for full support and development of a service throughout its lifecycle.
-
+早在1968年，Melvin Conway 就提出，一个组织的架构，或者更具体地说，其通信架构约束了一个系统的设计，以至于最终的设计是该组织通信模式的复制品[24]。 微服务的方法是围绕服务组织跨职能团队，而服务又围绕业务能力进行组织。 这种方法也被称为"构建，运行"原则，首先由 Amazon CTO Werner Vogels 提出[40]。 根据这种方法，团队负责在服务的整个生命周期中对其进行全面的支持和开发。
 ## *3.2 Total *automation
 Each microservice may represent a single business capability that is delivered and updated independently and on its own schedule. Discovering a bug and or adding a minor improvement do not have any impact on other services and on their release schedule (of course, as long as backwards compatibility is preserved and a service interface remains unchanged). However, to truly harness the power of independent deployment, one must utilise very efficient integration and delivery mechanisms. This being said, microservices are the first architecture developed in the post-continuous delivery era and essentially microservices are meant to be used with continuous delivery and continuous integration, making each stage of delivery pipeline automatic. By using automated continuous delivery pipelines and modern container tools, it is possible to deploy an updated version of a service to production in a matter of seconds [54], which proves to be very beneficial in rapidly changing business environments.
 ## 3.3 Choreography over orchestration
