@@ -55,6 +55,8 @@
 
 ## Linux内核
 - [Linux机械硬盘I/O优化技术](https://github.com/heming6666/blog/blob/master/notes/Linux%E5%86%85%E6%A0%B8/Linux%E6%9C%BA%E6%A2%B0%E7%A1%AC%E7%9B%98IO%E4%BC%98%E5%8C%96%E6%8A%80%E6%9C%AF.md)
+
+- [Linux SMP 中断系统](https://1drv.ms/w/s!AvoJSe9CxUWuiwdXqHVdd70BJVrq?e=8adV8B)
 ## :pencil2: 算法
 
 - [Leetcode 题解](https://github.com/heming6666/CS-Learning-notes/tree/master/notes/leetcode/README.md)
