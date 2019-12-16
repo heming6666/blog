@@ -1,17 +1,90 @@
 <!-- TOC -->
 
-- [常用命令](#常用命令)
-- [参考资料](#参考资料)
-- [Git 命令一览](#git-命令一览)
-- [分布式与集中式 (Git 与 SVN)](#分布式与集中式-git-与-svn)
-- [工作流](#工作流)
-- [分支实现与冲突合并](#分支实现与冲突合并)
-- [储藏（Stashing）](#储藏stashing)
+  - [常用命令](#常用命令)
+    - [查看log](#查看log)
+    - [分支相关](#分支相关)
+    - [远程仓库相关](#远程仓库相关)
+    - [git fetch](#git-fetch)
+- [或者](#或者)
+  - [参考资料](#参考资料)
+  - [Git 命令一览](#git-命令一览)
+  - [分布式与集中式 (Git 与 SVN)](#分布式与集中式-git-与-svn)
+  - [工作流](#工作流)
+  - [分支实现与冲突合并](#分支实现与冲突合并)
+  - [储藏（Stashing）](#储藏stashing)
 
 <!-- /TOC -->
 
 ## 常用命令
+### 查看log
+- 展示简化的 commit 历史
+```
+git log --pretty=oneline --graph --decorate --all
+```
+- 在 commit log 中查找相关内容
+```
+git log --all --grep='<given-text>'
+```
+### 分支相关
+- 列出所有分支
+```
+git branch -a
+```
+- 创建并切换
+```
+git checkout -b <branch-name>
+```
+- 删除本地分支
+```
+git branch -d <local-branchname>
+```
+- 删除远程分支
+```
+git push origin --delete <remote-branchname>
+```
+- 重命名本地分支
+```
+git branch -m <new-branch-name>
+```
+### 远程仓库相关
+- 列出所有远程仓库
+```
+git remote -v
+```
+- 增加远程仓库
+```
+git remote add upstream <remote-url>
+```
+- 修改远程仓库的 url
+```
+git remote set-url upstream <URL>
+```
+- 重命名
+```
+git remote rename xx xx
+```
+- 删除远程仓库
+```
+git remote rm upstream 
+```
 
+### git fetch
+
+- 将某个远程主机的更新取回本地,取回的代码对你本地的开发代码没有影响。默认情况下，git fetch取回所有分支的更新。如果只想取回特定分支的更新，可以指定分支名。
+```
+git fetch upstream master
+```
+
+- 使用git merge命令或者git rebase命令，在本地分支上合并远程分支。
+```
+git merge upstream/master
+```
+# 或者
+```
+git rebase upstream/master
+```
+
+上面命令表示在当前分支上，合并 upstream/master。
 
 ## 参考资料
 
