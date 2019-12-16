@@ -1,5 +1,6 @@
 <!-- TOC -->
 
+- [常用命令](#常用命令)
 - [参考资料](#参考资料)
 - [Git 命令一览](#git-命令一览)
 - [分布式与集中式 (Git 与 SVN)](#分布式与集中式-git-与-svn)
@@ -9,14 +10,16 @@
 
 <!-- /TOC -->
 
+## 常用命令
+
+
 ## 参考资料
-将参考资料放到了最前面，便于直接查阅。
 
 - [Git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html) (简明易懂，页面漂亮)
 - [Learn Git Branching](https://learngitbranching.js.org/)（在沙盒里执行 Git 命令，能看到每个命令的执行情况； 关卡挑战模式，可以动手，学习起来也比较有意思）
 - [图解 Git](http://marklodato.github.io/visual-git-guide/index-zh-cn.html)（可以更透彻理解 Git 的工作原理）
 - [廖雪峰 : Git 教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
-- [git-tips](https://github.com/git-tips/tips)
+- [git-tips](https://github.com/git-tips/tips) ([中文版](https://github.com/521xueweihan/git-tips))
 
 ## Git 命令一览
 
