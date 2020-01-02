@@ -1,17 +1,17 @@
 <!-- TOC -->
 
-  - [常用命令](#常用命令)
-    - [查看log](#查看log)
-    - [分支相关](#分支相关)
-    - [远程仓库相关](#远程仓库相关)
-    - [git fetch](#git-fetch)
-- [或者](#或者)
-  - [参考资料](#参考资料)
-  - [Git 命令一览](#git-命令一览)
-  - [分布式与集中式 (Git 与 SVN)](#分布式与集中式-git-与-svn)
-  - [工作流](#工作流)
-  - [分支实现与冲突合并](#分支实现与冲突合并)
-  - [储藏（Stashing）](#储藏stashing)
+- [常用命令](#常用命令)
+  - [查看log](#查看log)
+  - [分支相关](#分支相关)
+  - [远程仓库相关](#远程仓库相关)
+  - [git fetch](#git-fetch)
+  - [git reset](#git-reset)
+- [参考资料](#参考资料)
+- [Git 命令一览](#git-命令一览)
+- [分布式与集中式 (Git 与 SVN)](#分布式与集中式-git-与-svn)
+- [工作流](#工作流)
+- [分支实现与冲突合并](#分支实现与冲突合并)
+- [储藏（Stashing）](#储藏stashing)
 
 <!-- /TOC -->
 
@@ -68,6 +68,16 @@ git remote rename xx xx
 git remote rm upstream 
 ```
 
+- 只克隆某个分支
+```
+git clone -b xx --single--branch
+```
+
+- 只克隆最近1次提交的代码
+```
+git clone xx --depth=1
+```
+
 ### git fetch
 
 - 将某个远程主机的更新取回本地,取回的代码对你本地的开发代码没有影响。默认情况下，git fetch取回所有分支的更新。如果只想取回特定分支的更新，可以指定分支名。
@@ -79,12 +89,23 @@ git fetch upstream master
 ```
 git merge upstream/master
 ```
-# 或者
+或者
 ```
 git rebase upstream/master
 ```
 
 上面命令表示在当前分支上，合并 upstream/master。
+
+### git reset
+```
+git reset <commit-id>  #默认就是-mixed参数。
+
+git reset  -- mixed HEAD^  #回退至上个版本，它将重置HEAD到另外一个commit,并且重置暂存区以便和HEAD相匹配，但是也到此为止。工作区不会被更改。
+
+git reset -- soft HEAD~3  #回退至三个版本之前，只回退了commit的信息，暂存区和工作区与回退之前保持一致。如果还要提交，直接commit即可  
+
+git reset -- hard <commit-id>  #彻底回退到指定commit-id的状态，暂存区和工作区也会变为指定commit-id版本的内容
+```
 
 ## 参考资料
 
